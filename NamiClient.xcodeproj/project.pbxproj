@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BAB1947C5FED20037F0CE38 /* Pods_NamiClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A81765470BC96FF7FC280C5 /* Pods_NamiClient.framework */; };
 		A2BC566220ABC6D1007539AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC566120ABC6D1007539AF /* AppDelegate.swift */; };
 		A2BC566420ABC6D1007539AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC566320ABC6D1007539AF /* ViewController.swift */; };
 		A2BC566720ABC6D1007539AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC566520ABC6D1007539AF /* Main.storyboard */; };
@@ -14,6 +15,22 @@
 		A2BC566C20ABC6D2007539AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC566A20ABC6D2007539AF /* LaunchScreen.storyboard */; };
 		A2BC567720ABC6D2007539AF /* NamiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC567620ABC6D2007539AF /* NamiClientTests.swift */; };
 		A2BC568220ABC6D2007539AF /* NamiClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC568120ABC6D2007539AF /* NamiClientUITests.swift */; };
+		A2BC569020ABC755007539AF /* NMCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC568F20ABC755007539AF /* NMCategoryView.swift */; };
+		A2BC569220ABC7D4007539AF /* NMSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC569120ABC7D4007539AF /* NMSettings.swift */; };
+		A2BC569920ABC8A7007539AF /* UIColor+NMExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC569420ABC8A7007539AF /* UIColor+NMExtensions.swift */; };
+		A2BC569A20ABC8A7007539AF /* Date+NMExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC569520ABC8A7007539AF /* Date+NMExtensions.swift */; };
+		A2BC569B20ABC8A7007539AF /* String+NMExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC569620ABC8A7007539AF /* String+NMExtensions.swift */; };
+		A2BC569C20ABC8A7007539AF /* UIImage+NMExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC569720ABC8A7007539AF /* UIImage+NMExtensions.swift */; };
+		A2BC569D20ABC8A7007539AF /* NSAttributedString+NMExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC569820ABC8A7007539AF /* NSAttributedString+NMExtensions.swift */; };
+		A2BC56A520ABCDA3007539AF /* NotoSansJP-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2BC56A420ABCD5F007539AF /* NotoSansJP-Bold.otf */; };
+		A2BC56A620ABCDA5007539AF /* NotoSansJP-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2BC56A320ABCD5F007539AF /* NotoSansJP-Light.otf */; };
+		A2BC56A720ABCDA7007539AF /* NotoSansJP-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2BC56A120ABCD5F007539AF /* NotoSansJP-Medium.otf */; };
+		A2BC56A820ABCDAA007539AF /* NotoSansJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2BC56A020ABCD5F007539AF /* NotoSansJP-Regular.otf */; };
+		A2BC56A920ABCDAC007539AF /* NotoSansJP-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2BC56A220ABCD5F007539AF /* NotoSansJP-Thin.otf */; };
+		A2BC56AB20ABD8CE007539AF /* NMSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC56AA20ABD8CE007539AF /* NMSlider.swift */; };
+		A2BC56AD20AC188E007539AF /* NMUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC56AC20AC188E007539AF /* NMUserView.swift */; };
+		E1E8717800D3E2A966A886A6 /* Pods_NamiClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354C95FF8DABB129B61EDFC5 /* Pods_NamiClientUITests.framework */; };
+		E2597F9C1027A9AE73DFB2BB /* Pods_NamiClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24EC366B13E21F934690631 /* Pods_NamiClientTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0786B3797973B1E1DE4C622E /* Pods-NamiClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamiClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NamiClientTests/Pods-NamiClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11CDA6124AB3467F332F579D /* Pods-NamiClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamiClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-NamiClient/Pods-NamiClient.release.xcconfig"; sourceTree = "<group>"; };
+		2A81765470BC96FF7FC280C5 /* Pods_NamiClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NamiClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		354C95FF8DABB129B61EDFC5 /* Pods_NamiClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NamiClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DA4C9F79FC05062134D211 /* Pods-NamiClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamiClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NamiClientTests/Pods-NamiClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		59DD8CAD42D0120CFCB99481 /* Pods-NamiClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamiClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NamiClientUITests/Pods-NamiClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		805EB9C4E92464C7CE453CA4 /* Pods-NamiClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamiClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NamiClient/Pods-NamiClient.debug.xcconfig"; sourceTree = "<group>"; };
+		A24EC366B13E21F934690631 /* Pods_NamiClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NamiClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC565E20ABC6D1007539AF /* NamiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamiClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC566120ABC6D1007539AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2BC566320ABC6D1007539AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,21 @@
 		A2BC567D20ABC6D2007539AF /* NamiClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamiClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC568120ABC6D2007539AF /* NamiClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamiClientUITests.swift; sourceTree = "<group>"; };
 		A2BC568320ABC6D2007539AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BC568F20ABC755007539AF /* NMCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMCategoryView.swift; sourceTree = "<group>"; };
+		A2BC569120ABC7D4007539AF /* NMSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMSettings.swift; sourceTree = "<group>"; };
+		A2BC569420ABC8A7007539AF /* UIColor+NMExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+NMExtensions.swift"; sourceTree = "<group>"; };
+		A2BC569520ABC8A7007539AF /* Date+NMExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+NMExtensions.swift"; sourceTree = "<group>"; };
+		A2BC569620ABC8A7007539AF /* String+NMExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+NMExtensions.swift"; sourceTree = "<group>"; };
+		A2BC569720ABC8A7007539AF /* UIImage+NMExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+NMExtensions.swift"; sourceTree = "<group>"; };
+		A2BC569820ABC8A7007539AF /* NSAttributedString+NMExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+NMExtensions.swift"; sourceTree = "<group>"; };
+		A2BC56A020ABCD5F007539AF /* NotoSansJP-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Regular.otf"; sourceTree = "<group>"; };
+		A2BC56A120ABCD5F007539AF /* NotoSansJP-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Medium.otf"; sourceTree = "<group>"; };
+		A2BC56A220ABCD5F007539AF /* NotoSansJP-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Thin.otf"; sourceTree = "<group>"; };
+		A2BC56A320ABCD5F007539AF /* NotoSansJP-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Light.otf"; sourceTree = "<group>"; };
+		A2BC56A420ABCD5F007539AF /* NotoSansJP-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Bold.otf"; sourceTree = "<group>"; };
+		A2BC56AA20ABD8CE007539AF /* NMSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMSlider.swift; sourceTree = "<group>"; };
+		A2BC56AC20AC188E007539AF /* NMUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMUserView.swift; sourceTree = "<group>"; };
+		B60767C820F0A20E4DD0092C /* Pods-NamiClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamiClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NamiClientUITests/Pods-NamiClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAB1947C5FED20037F0CE38 /* Pods_NamiClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2597F9C1027A9AE73DFB2BB /* Pods_NamiClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E8717800D3E2A966A886A6 /* Pods_NamiClientUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		215D0C2315608EB1688CCA68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				805EB9C4E92464C7CE453CA4 /* Pods-NamiClient.debug.xcconfig */,
+				11CDA6124AB3467F332F579D /* Pods-NamiClient.release.xcconfig */,
+				0786B3797973B1E1DE4C622E /* Pods-NamiClientTests.debug.xcconfig */,
+				41DA4C9F79FC05062134D211 /* Pods-NamiClientTests.release.xcconfig */,
+				B60767C820F0A20E4DD0092C /* Pods-NamiClientUITests.debug.xcconfig */,
+				59DD8CAD42D0120CFCB99481 /* Pods-NamiClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A2BC565520ABC6D1007539AF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +137,8 @@
 				A2BC567520ABC6D2007539AF /* NamiClientTests */,
 				A2BC568020ABC6D2007539AF /* NamiClientUITests */,
 				A2BC565F20ABC6D1007539AF /* Products */,
+				215D0C2315608EB1688CCA68 /* Pods */,
+				A9E6657DACBD0D39C61C0DA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +155,18 @@
 		A2BC566020ABC6D1007539AF /* NamiClient */ = {
 			isa = PBXGroup;
 			children = (
+				A2BC569E20ABCD3F007539AF /* Assets */,
+				A2BC569320ABC8A7007539AF /* Extensions */,
 				A2BC566120ABC6D1007539AF /* AppDelegate.swift */,
 				A2BC566320ABC6D1007539AF /* ViewController.swift */,
+				A2BC569120ABC7D4007539AF /* NMSettings.swift */,
 				A2BC566520ABC6D1007539AF /* Main.storyboard */,
 				A2BC566820ABC6D2007539AF /* Assets.xcassets */,
 				A2BC566A20ABC6D2007539AF /* LaunchScreen.storyboard */,
 				A2BC566D20ABC6D2007539AF /* Info.plist */,
+				A2BC568F20ABC755007539AF /* NMCategoryView.swift */,
+				A2BC56AA20ABD8CE007539AF /* NMSlider.swift */,
+				A2BC56AC20AC188E007539AF /* NMUserView.swift */,
 			);
 			path = NamiClient;
 			sourceTree = "<group>";
@@ -125,6 +189,48 @@
 			path = NamiClientUITests;
 			sourceTree = "<group>";
 		};
+		A2BC569320ABC8A7007539AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2BC569420ABC8A7007539AF /* UIColor+NMExtensions.swift */,
+				A2BC569520ABC8A7007539AF /* Date+NMExtensions.swift */,
+				A2BC569620ABC8A7007539AF /* String+NMExtensions.swift */,
+				A2BC569720ABC8A7007539AF /* UIImage+NMExtensions.swift */,
+				A2BC569820ABC8A7007539AF /* NSAttributedString+NMExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A2BC569E20ABCD3F007539AF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A2BC569F20ABCD45007539AF /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A2BC569F20ABCD45007539AF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A2BC56A420ABCD5F007539AF /* NotoSansJP-Bold.otf */,
+				A2BC56A320ABCD5F007539AF /* NotoSansJP-Light.otf */,
+				A2BC56A120ABCD5F007539AF /* NotoSansJP-Medium.otf */,
+				A2BC56A020ABCD5F007539AF /* NotoSansJP-Regular.otf */,
+				A2BC56A220ABCD5F007539AF /* NotoSansJP-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A9E6657DACBD0D39C61C0DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A81765470BC96FF7FC280C5 /* Pods_NamiClient.framework */,
+				A24EC366B13E21F934690631 /* Pods_NamiClientTests.framework */,
+				354C95FF8DABB129B61EDFC5 /* Pods_NamiClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2BC568620ABC6D2007539AF /* Build configuration list for PBXNativeTarget "NamiClient" */;
 			buildPhases = (
+				C9566021C7F6ABD25D41D92F /* [CP] Check Pods Manifest.lock */,
 				A2BC565A20ABC6D1007539AF /* Sources */,
 				A2BC565B20ABC6D1007539AF /* Frameworks */,
 				A2BC565C20ABC6D1007539AF /* Resources */,
+				26136AE858E5E844D1026F03 /* [CP] Embed Pods Frameworks */,
+				EE20BBC3A14B9D135EF543C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2BC568920ABC6D2007539AF /* Build configuration list for PBXNativeTarget "NamiClientTests" */;
 			buildPhases = (
+				7C018823212F859C2818D798 /* [CP] Check Pods Manifest.lock */,
 				A2BC566E20ABC6D2007539AF /* Sources */,
 				A2BC566F20ABC6D2007539AF /* Frameworks */,
 				A2BC567020ABC6D2007539AF /* Resources */,
+				D15559E6F139A07762832B7A /* [CP] Embed Pods Frameworks */,
+				69B3F83C8C7DBB1F94B7E557 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2BC568C20ABC6D2007539AF /* Build configuration list for PBXNativeTarget "NamiClientUITests" */;
 			buildPhases = (
+				5BC299AFB66D61F494070E84 /* [CP] Check Pods Manifest.lock */,
 				A2BC567920ABC6D2007539AF /* Sources */,
 				A2BC567A20ABC6D2007539AF /* Frameworks */,
 				A2BC567B20ABC6D2007539AF /* Resources */,
+				BD1D0DA1AB5014DF42B47322 /* [CP] Embed Pods Frameworks */,
+				45992E87B5BE2DA0FF5F3A5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +344,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BC56A820ABCDAA007539AF /* NotoSansJP-Regular.otf in Resources */,
+				A2BC56A920ABCDAC007539AF /* NotoSansJP-Thin.otf in Resources */,
 				A2BC566C20ABC6D2007539AF /* LaunchScreen.storyboard in Resources */,
 				A2BC566920ABC6D2007539AF /* Assets.xcassets in Resources */,
 				A2BC566720ABC6D1007539AF /* Main.storyboard in Resources */,
+				A2BC56A720ABCDA7007539AF /* NotoSansJP-Medium.otf in Resources */,
+				A2BC56A520ABCDA3007539AF /* NotoSansJP-Bold.otf in Resources */,
+				A2BC56A620ABCDA5007539AF /* NotoSansJP-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +371,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26136AE858E5E844D1026F03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NamiClient/Pods-NamiClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NamiClient/Pods-NamiClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45992E87B5BE2DA0FF5F3A5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NamiClientUITests/Pods-NamiClientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC299AFB66D61F494070E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NamiClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69B3F83C8C7DBB1F94B7E557 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NamiClientTests/Pods-NamiClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C018823212F859C2818D798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NamiClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1D0DA1AB5014DF42B47322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NamiClientUITests/Pods-NamiClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9566021C7F6ABD25D41D92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NamiClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15559E6F139A07762832B7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NamiClientTests/Pods-NamiClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE20BBC3A14B9D135EF543C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NamiClient/Pods-NamiClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2BC565A20ABC6D1007539AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BC569D20ABC8A7007539AF /* NSAttributedString+NMExtensions.swift in Sources */,
+				A2BC56AB20ABD8CE007539AF /* NMSlider.swift in Sources */,
+				A2BC569020ABC755007539AF /* NMCategoryView.swift in Sources */,
 				A2BC566420ABC6D1007539AF /* ViewController.swift in Sources */,
+				A2BC56AD20AC188E007539AF /* NMUserView.swift in Sources */,
+				A2BC569B20ABC8A7007539AF /* String+NMExtensions.swift in Sources */,
+				A2BC569A20ABC8A7007539AF /* Date+NMExtensions.swift in Sources */,
+				A2BC569C20ABC8A7007539AF /* UIImage+NMExtensions.swift in Sources */,
 				A2BC566220ABC6D1007539AF /* AppDelegate.swift in Sources */,
+				A2BC569220ABC7D4007539AF /* NMSettings.swift in Sources */,
+				A2BC569920ABC8A7007539AF /* UIColor+NMExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +709,13 @@
 		};
 		A2BC568720ABC6D2007539AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805EB9C4E92464C7CE453CA4 /* Pods-NamiClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23YC5GPN5S;
 				INFOPLIST_FILE = NamiClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +729,13 @@
 		};
 		A2BC568820ABC6D2007539AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CDA6124AB3467F332F579D /* Pods-NamiClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23YC5GPN5S;
 				INFOPLIST_FILE = NamiClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +749,7 @@
 		};
 		A2BC568A20ABC6D2007539AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0786B3797973B1E1DE4C622E /* Pods-NamiClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +771,7 @@
 		};
 		A2BC568B20ABC6D2007539AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DA4C9F79FC05062134D211 /* Pods-NamiClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +793,7 @@
 		};
 		A2BC568D20ABC6D2007539AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60767C820F0A20E4DD0092C /* Pods-NamiClientUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +814,7 @@
 		};
 		A2BC568E20ABC6D2007539AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DD8CAD42D0120CFCB99481 /* Pods-NamiClientUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
